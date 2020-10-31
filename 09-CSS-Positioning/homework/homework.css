@@ -7,32 +7,66 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
+    display: block;
+    text-align: center;
+    }
+    
+    
+    /* Ejercicio 2: Posicionar el header */
+    
+    /* Acá va tu código */
+    #ejercicioDos{
+    display: none;
+    }
+    
+    
+    /* Ejercicio 3: */
+    
+    /* Acá va tu código */
+    #ejercicioTres{
+    position: absolute;
+    margin: 100px 200px;
+    }
+    
+    
+    /* Ejercicio 4: */
+    
+    /* Acá va tu código */
+    #ejercicioCuatro{
+        position: absolute;
+        top: 0px;
+    }
+    
+    
+    /* Ejercicio 5: */
+    
+    /* Acá va tu código */
+    #ejercicioCinco{
+        display: flex;
+        justify-content: space-between;
 
-}
+    
+    }
+    
+    
+    /* Ejercicio 6. */
+    #ejercicioCinco > span:first-child{
+    order: 2;
+    }
+    #ejercicioCinco > img{
 
-
-/* Ejercicio 2: Posicionar el header */
-
-/* Acá va tu código */
-
-
-
-/* Ejercicio 3: */
-
-/* Acá va tu código */
-
-
-
-/* Ejercicio 4: */
-
-/* Acá va tu código */
-
-
-
-/* Ejercicio 5: */
-
-/* Acá va tu código */
-
-
-
-/* Ejercicio 6. */
+        order: 1;
+        }
+    /* Ejercicio 7. */
+    #ejercicioSiete > #elementoUno{
+        justify-content: center;
+    }
+    #ejercicioSiete > #elementoDos{
+        align-items: center;
+    }
+    #ejercicioSiete > #elementoTres{
+        align-self: center;
+    }
+    #ejercicioSiete > #elementoCuatro{
+        flex-direction: center;
+    }
